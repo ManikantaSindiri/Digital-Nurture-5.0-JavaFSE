@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface Repository {
 
-public class Repository {
+    String getData();
+
 }
