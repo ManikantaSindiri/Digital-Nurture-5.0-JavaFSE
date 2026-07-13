@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface RestClient {
 
-public class RestClient {
+    String getResponse();
+
 }
