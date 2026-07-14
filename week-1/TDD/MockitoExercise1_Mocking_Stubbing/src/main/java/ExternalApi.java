@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
+public interface ExternalApi {
 
-public class ExternalApi {
+    String getData();
+
 }
