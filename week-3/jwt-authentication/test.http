@@ -1,0 +1,9 @@
+POST http://localhost:8090/authenticate
+Content-Type: application/json
+
+{
+  "username": "user",
+  "password": "password"
+}
+GET http://localhost:8090/hello
+Authorization: Bearer PASTE_YOUR_TOKEN_HERE
